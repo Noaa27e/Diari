@@ -1,0 +1,104 @@
+/* Reset bàsic per evitar estils per defecte del navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estils generals per al cos */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #add8e6; /* Blau clar */
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Estil per la imatge de la pàgina */
+img {
+    display: block;
+    margin: 0 auto 20px;
+    width: 10%;
+}
+
+/* Estil per al títol principal */
+h1 {
+    text-align: center;
+    color: #2e8b57;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+/* Estils per a l'encapçalament de les notícies */
+h3 {
+    font-size: 1.8em;
+    color: #555;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estil per a l'encapçalament de la secció */
+h4 {
+    font-size: 1.2em;
+    color: #444;
+    margin-bottom: 30px;
+    text-align: justify;
+}
+
+/* Estil per a les imatges dins de la secció */
+section img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* Estils per al menú de navegació */
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+ul a {
+    text-decoration: none;
+    color: #2e8b57;
+    font-size: 1.2em;
+    margin: 0 15px;
+    transition: color 0.3s;
+}
+
+ul a:hover {
+    color: #333;
+}
+
+/* Fons i estil del text del cos */
+section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section h1, section h3 {
+    text-align: center;
+}
+
+/* Estils per a la pàgina */
+section {
+    margin: 20px auto;
+    width: 80%;
+}
+
+/* Estil per a la barra de navegació */
+head {
+    margin-bottom: 30px;
+}
+/* === Estilo exclusivo para portada.html === */
+
+
+
+
+
+
